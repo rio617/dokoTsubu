@@ -15,7 +15,8 @@
 <body>
 <h1>どこつぶメイン</h1>
 <p>
-<%= loginUser.getName() %>さん、ログイン中
+<%= loginUser.getName() %>さん、ログイン中<br>
+<a href="Logout">ログアウト</a>
 </p>
 </body>
 </html>
