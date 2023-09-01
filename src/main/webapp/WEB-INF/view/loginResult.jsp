@@ -13,12 +13,14 @@
 <title>どこつぶ</title>
 </head>
 <body>
+<h1>どこつぶログイン</h1>
 <% if(loginUser != null){ %>
 <p>ログイン成功しました！</p>
 <p>ようこそ<%= loginUser.getName() %>さん</p>
-<a href="index.jsp">TOPへ</a>
+<a href="Main">つぶやき投稿・閲覧へ</a>
 <%} else { %>
 <p>ログインに失敗しました。</p>
+<a href="index.jsp">TOPへ</a>
 <%} %>
 </body>
 </html>
